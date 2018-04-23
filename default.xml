@@ -105,7 +105,7 @@
   <project path="external/c-ares" name="platform/external/c-ares" groups="pdk" />
   <project path="external/caliper" name="platform/external/caliper" groups="pdk" />
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" />
-  <project path="external/chromium" name="platform_external_chromium" remote="bitbucket" />
+  <project path="external/chromium" name="platform_external_chromium" remote="github" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/clang" name="platform_external_clang" groups="pdk" remote="github" />
