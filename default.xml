@@ -9,7 +9,7 @@
            revision="refs/heads/oreo-m2-s5-release" />
   <remote  name="github"
            fetch="https://github.com/copperheados/"
-           revision="refs/heads/oreo-m2-s5-release" />
+           revision="refs/tags/OPM2.171026.006.H1.2018.07.07.05" />
   <default revision="refs/tags/android-8.1.0_r36"
            remote="aosp"
            sync-j="4" />
