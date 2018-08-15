@@ -7,7 +7,7 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/tags/OPM4.171019.021.P1.07.07.05" />
-  <default revision="refs/tags/android-8.1.0_r36"
+  <default revision="refs/tags/android-8.1.0_r38"
            remote="aosp"
            sync-j="4" />
 
