@@ -10,6 +10,9 @@
   <remote  name="github"
            fetch="https://github.com/copperheados/"
            revision="refs/tags/OPM2.171026.006.H1.2018.07.07.05" />
+  <remote  name="zx2c4"
+           fetch="https://git.zx2c4.com/"
+           revision="refs/heads/master" />
   <default revision="refs/tags/android-8.1.0_r36"
            remote="aosp"
            sync-j="4" />
@@ -445,6 +448,7 @@
   <project path="kernel/linaro/hikey" name="kernel_linaro_hikey" remote="github" />
 -->
   <project path="kernel/tests" name="kernel/tests" />
+  <project path="kernel/wireguard" name="WireGuard" remote="zx2c4" revision="master" sync-s="true" />
   <project path="libcore" name="platform_libcore" groups="pdk" remote="github" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <!--<project path="packages/apps/Backup" name="platform_packages_apps_Backup" remote="github" />-->
