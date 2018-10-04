@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/copperheados/"
-           revision="refs/tags/OPM2.171026.006.G1.2018.07.07.05" />
+           revision="refs/tags/OPM2.171026.006.G1.2018.09.18.02" />
   <remote  name="zx2c4"
            fetch="https://git.zx2c4.com/"
            revision="refs/heads/master" />
@@ -114,7 +114,7 @@
   <project path="external/conscrypt" name="platform_external_conscrypt" groups="pdk" remote="github" />
   <project path="external/crcalc" name="platform/external/crcalc" groups="pdk" />
   <project path="external/cros/system_api" name="platform/external/cros/system_api" groups="pdk" />
-  <project path="external/curl" name="platform/external/curl" groups="pdk" />
+  <project path="external/curl" name="platform_external_curl" groups="pdk" remote="github" />
   <project path="external/dagger2" name="platform/external/dagger2" groups="pdk" />
   <project path="external/devlib" name="platform/external/devlib" groups="pdk" />
   <project path="external/deqp" name="platform/external/deqp" groups="pdk-fs" />
@@ -130,7 +130,7 @@
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk" />
   <project path="external/drrickorang" name="platform/external/drrickorang" groups="pdk" />
   <project path="external/dtc" name="platform/external/dtc" groups="pdk"/>
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
+  <project path="external/e2fsprogs" name="platform_external_e2fsprogs" groups="pdk" remote="github" />
   <project path="external/easymock" name="platform/external/easymock" groups="pdk" />
   <project path="external/eigen" name="platform/external/eigen" groups="pdk" />
   <project path="external/elfutils" name="platform/external/elfutils" groups="pdk" />
@@ -266,7 +266,7 @@
   <project path="external/naver-fonts" name="platform/external/naver-fonts" groups="pdk" />
   <project path="external/netcat" name="platform/external/netcat" groups="pdk" />
   <project path="external/netperf" name="platform/external/netperf" groups="pdk" />
-  <project path="external/neven" name="platform/external/neven" groups="pdk" />
+  <project path="external/neven" name="platform_external_neven" groups="pdk" remote="github" />
   <project path="external/nfacct" name="platform/external/nfacct" groups="pdk" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" groups="pdk" />
   <project path="external/nist-sip" name="platform/external/nist-sip" groups="pdk" />
@@ -310,7 +310,7 @@
   <project path="external/snakeyaml" name="platform/external/snakeyaml" groups="pdk" />
   <project path="external/sonic" name="platform/external/sonic" groups="pdk" />
   <project path="external/spirv-llvm" name="platform/external/spirv-llvm" groups="pdk" />
-  <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
+  <project path="external/sonivox" name="platform_external_sonivox" groups="pdk" remote="github" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
   <project path="external/sqlite" name="platform_external_sqlite" groups="pdk" remote="github" />
   <project path="external/squashfs-tools" name="platform/external/squashfs-tools" groups="pdk" />
@@ -383,7 +383,7 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="github" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="platform/frameworks/opt/telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="github" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
@@ -490,7 +490,7 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" groups="pdk" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" groups="pdk-fs" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" groups="pdk-fs" />
+  <project path="packages/apps/UnifiedEmail" name="platform_packages_apps_UnifiedEmail" groups="pdk-fs" remote="github" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="github" />
   <project path="packages/apps/WallpaperPicker" name="platform/packages/apps/WallpaperPicker" groups="pdk-fs"  />
   <project path="packages/experimental" name="platform/packages/experimental" />
@@ -566,7 +566,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" />
   <project path="script" name="script" remote="github" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" />
-  <project path="system/bt" name="platform/system/bt" groups="pdk" />
+  <project path="system/bt" name="platform_system_bt" groups="pdk" remote="github" />
   <project path="system/ca-certificates" name="platform/system/ca-certificates" groups="pdk" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" />
@@ -578,7 +578,7 @@
   <project path="system/hwservicemanager" name="platform/system/hwservicemanager" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/libfmq" name="platform/system/libfmq" groups="pdk" />
-  <project path="system/libhidl" name="platform/system/libhidl" groups="pdk" />
+  <project path="system/libhidl" name="platform_system_libhidl" groups="pdk" remote="github" />
   <project path="system/libhwbinder" name="platform/system/libhwbinder" groups="pdk" />
   <project path="system/libufdt" name="platform/system/libufdt" groups="pdk" />
   <project path="system/libvintf" name="platform/system/libvintf" groups="pdk" />
@@ -593,7 +593,7 @@
   <project path="system/tools/hidl" name="platform/system/tools/hidl" groups="pdk" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
+  <project path="system/vold" name="platform_system_vold" groups="pdk" remote="github" />
   <project path="test/framework" name="platform/test/framework" groups="vts,pdk-fs" />
   <project path="test/vts" name="platform/test/vts" groups="vts,pdk-fs" />
   <project path="test/vts-testcase/fuzz" name="platform/test/vts-testcase/fuzz" groups="vts,pdk-fs" />
